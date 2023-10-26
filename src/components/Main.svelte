@@ -10,17 +10,20 @@
 
   let benefits = [
     {
-      name: "Dayane Bartolomeu de Oliveira Santos Bernardo",
-      description: "CRP: 06/175725",
+      name: "Nome Completo",
+      description: "Dayane Bartolomeu de Oliveira Santos Bernardo",
     },
     {
       name: "Formação",
-      description: "Psicóloga formada pela universidade de Mogi das Cruzes.",
+      description: "Universidade de Mogi das Cruzes. -  CRP: 06/175725",
     },
     {
       name: "Abordagem",
-      description:
-        "Minha principal abordagem é a 'Terapia Cognitiva Comportamental'",
+      description: "TCC - Terapia Cognitiva Comportamental",
+    },
+    {
+      name: "Método de Atendimento",
+      description: "100% Online",
     },
   ];
 </script>
@@ -31,20 +34,23 @@
     class="grid grid-cols-1 lg-grid-cols-2 gap-10 py-8 sm:py-14"
   >
     <div
-      class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
+      class="grid grid-cols-1 lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
     >
-      <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
+      <h2
+        class="font-semibold text-4xl/tight sm:text-5xl/tight md:text-6xl/tight lg:text-7xl/tight"
+      >
         Olá! <br /> Eu sou
-        <span class="poppins text-violet-400" text-violet-400> Dayane</span>
+        <span class="poppins text-rose-400" text-violet-400> Dayane</span>
         Bartolomeu
         <br />
-        Psicóloga <span class="poppins text-violet-400"> Clínica</span>
+        Psicóloga <span class="poppins text-rose-400"> Clínica</span>
       </h2>
 
-      <p class="text-base sm:text-lg md:text-xl">
-        Pode contar comigo para tratar questões de <span class="text-violet-400"
-          >Ansiedade, Autoestima, Depressão, Relacionamento</span
-        > e muito mais...
+      <!-- <p class="text-base sm:text-lg md:text-xl">
+        Está precisando de ajuda com <br />
+        <span class="text-rose-300"
+          >Ansiedade, Autoestima, Depressão e Relacionamento</span
+        > ?
       </p>
       <a
         href="https://wa.me/5511947922772"
@@ -55,25 +61,17 @@
           class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
         />
         <h4 class="relative z-9">Vamos conversar &rarr;</h4>
-      </a>
-    </div>
-
-    <div class="relative shadow-2xl grid place-items-center">
-      <img
-        src={"images/profile.png"}
-        alt="Foto Perfil Dayane"
-        class="object-cover z-[2] max-[70vh]"
-      />
+      </a> -->
     </div>
   </section>
 
   <section id="servicos" class="py-20 lg:py-32 flex flex-col gap-24">
     <div class="flex flex-col gap2 text-center">
-      <h6 class="text-lg sm:text-xl md:text-2xl">...</h6>
+      <!-- <h6 class="text-lg sm:text-xl md:text-2xl">Posso te ajudar?</h6> -->
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-        <span class="poppins text-violet-400">Posso te ajudar?</span>
+        <span class="poppins text-rose-400">Posso te ajudar?</span>
       </h3>
-      <p>Veja abaixo algumas das questões que posso te ajudar a tratar.</p>
+      <!-- <p>Veja abaixo algumas das questões que posso te ajudar a tratar.</p> -->
     </div>
     <!-- <a
       href=""
@@ -83,7 +81,9 @@
       <i class="fa-regular fa-circle-play" />
       <p>Sobre Ansiedade</p>
     </a> -->
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap12 lg:gap-10">
+    <div
+      class="grid grid-cols-1 gap12 md:grid-cols-2 lg:grid-cols-4 md:gap-5 lg:gap-10"
+    >
       <Step step={step[0]}>
         <p>
           Preocupação excessiva ou constante de que algo negativo vai acontecer.
@@ -109,6 +109,17 @@
         </p>
       </Step>
     </div>
+
+    <a
+      href="https://wa.me/5511947922772"
+      target="_blank"
+      class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-rose-400 text-white"
+    >
+      <div
+        class="absolute top-0 right-full w-full h-full bg-white opacity-20 group-hover:translate-x-full z-0 duration-200"
+      />
+      <h4 class="relative z-9">Entre em contato</h4>
+    </a>
   </section>
 
   <section
@@ -116,21 +127,28 @@
     class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
   >
     <div
-      class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+      class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-rose-400 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-rose-400 py-6"
     >
       <h6 class="text-lg sm:text-xl md:text-2xl">Quer me conhecer melhor?</h6>
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-        Um <span class="poppins text-violet-400"> pouco mais </span> sobre mim.
+        Um <span class="poppins text-rose-400"> pouco mais </span> sobre mim.
       </h3>
     </div>
-    <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
-      Eu sou...
-    </p>
+    <!-- <div class="relative grid place-items-center">
+      <img
+        src={"images/profile.png"}
+        alt="Foto Perfil Dayane"
+        class="object-cover z-[2] max-[70vh]"
+      />
+      <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
+        Eu sou...
+      </p>
+    </div> -->
     <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
       {#each benefits as benefit, index}
         <div class="flex gap-6 sm:gap-8">
           <p
-            class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
+            class="poppins text-4xl sm:text-5xl md:text-6xl text-rose-300 font-semibold"
           >
             0{index + 1}
           </p>
@@ -138,15 +156,19 @@
             <h3 class="text-2xl sm:text-3xl md:text-5xl">
               {benefit.name}
             </h3>
-            <p>{benefit.description}</p>
+            <p class="text-base md:text-2xl lg:text-2xl">
+              {benefit.description}
+            </p>
           </div>
         </div>
       {/each}
     </div>
+
+    <!--
     <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">
       O Pacote <span class="text-violet-400 poppins">completo</span>
     </h5>
-    <div
+     <div
       class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
     >
       <table class="bg-white text-slate-700 rounded text-center">
@@ -207,7 +229,7 @@
     </div>
     <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
       <p>Role para o lado e veja mais &rarr;</p>
-    </div>
+    </div> -->
   </section>
 </main>
 

@@ -5,7 +5,7 @@
     { name: "Serviços", link: "#servicos" },
     { name: "Como Funciona", link: "#funcionamento" },
     { name: "Sobre mim", link: "#sobre" },
-    { name: "Contato", link: "#contato" },
+    // { name: "Contato", link: "#contato" },
   ];
 </script>
 
@@ -16,12 +16,14 @@
       : "py-6 bg-transparent border-transparent")}
 >
   <h1 class="font-medium">
-    <b class="font-bold poppins">Dayane</b> Bartolomeu
+    <a href="/" class="hover:text-rose-400">
+      <b class="font-bold poppins">Dayane</b> Bartolomeu
+    </a>
   </h1>
 
   <div class="sm:flex ml-auto pr-4 items-center gap-4 hidden">
     {#each tabs as tab, index}
-      <a href={tab.link} class="duration-200 hover:text-violet-400">
+      <a href={tab.link} class="duration-200 hover:text-rose-400">
         <p>{tab.name}</p>
       </a>
     {/each}
@@ -29,11 +31,15 @@
   <a
     href="#contato"
     target="_blank"
-    class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950"
+    class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-rose-400 text-white"
   >
     <div
-      class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+      class="absolute top-0 right-full w-full h-full bg-white opacity-20 group-hover:translate-x-full z-0 duration-200"
     />
-    <h4 class="relative z-9">Entre em contato</h4>
+    <h4 class="relative z-9">
+      <a href="https://wa.me/5511947922772" target="_blank">
+        Entre em contato
+      </a>
+    </h4>
   </a>
 </header>

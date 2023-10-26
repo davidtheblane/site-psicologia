@@ -1,8 +1,8 @@
 <footer
-  class="py-20 sm:py-32 bg-black border-t border-solid border-violet-950
+  class="py-16 bg-black border-t border-solid border-rose-300
 flex flex-col gap-4 sm:gap-8 justify-center items-center"
 >
-  <p class="px-4 py-2 bg-white text-slate-950 font-medium">
+  <p class="px-4 py-2 bg-rose-400 text-white font-medium rounded-lg">
     Vamos conversar &darr;
   </p>
   <div class="flex flex-col gap-4 items-center justify-center">
@@ -11,7 +11,7 @@ flex flex-col gap-4 sm:gap-8 justify-center items-center"
       <a
         href="mailto:psy.dayanebartolomeu@gmail.com"
         target="_blank"
-        class="text-violet-400 poppins"
+        class="text-rose-400 poppins"
       >
         psy.dayanebartolomeu@gmail.com <sup
           ><span class="text-xs scale-75 pl-0.5">
@@ -27,7 +27,7 @@ flex flex-col gap-4 sm:gap-8 justify-center items-center"
       <a
         href="https://www.instagram.com/psi.dayanebartolomeu/"
         target="_blank"
-        class="text-violet-400"
+        class="text-rose-400"
       >
         psy.dayanebartolomeu <sup
           ><span class="text-xs scale-75 pl-0.5">
@@ -43,7 +43,7 @@ flex flex-col gap-4 sm:gap-8 justify-center items-center"
       <a
         href="https://wa.me/5511947922772"
         target="_blank"
-        class="text-violet-400 poppins"
+        class="text-rose-400 poppins"
       >
         (11) 94792-2772 <sup
           ><span class="text-xs scale-75 pl-0.5">
@@ -55,4 +55,10 @@ flex flex-col gap-4 sm:gap-8 justify-center items-center"
       </a>
     </p>
   </div>
+
+  <!-- <div class="flex flex-col m-0 p-0"> -->
+  <p class="poppins text-gray-800 text-base">
+    Desenvolvido por Davi Bernardo - 2023
+  </p>
+  <!-- </div> -->
 </footer>
