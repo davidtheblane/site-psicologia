@@ -4,6 +4,7 @@
   let tabs = [
     { name: "Serviços", link: "#servicos" },
     { name: "Como Funciona", link: "#funcionamento" },
+    { name: "Benefícios", link: "#benefits" },
     { name: "Sobre mim", link: "#sobre" },
     // { name: "Contato", link: "#contato" },
   ];
@@ -16,9 +17,16 @@
       : "py-6 bg-transparent border-transparent")}
 >
   <h1 class="font-medium">
-    <a href="/" class="hover:text-rose-400">
-      <b class="font-bold poppins">Dayane</b> Bartolomeu
-    </a>
+    <div class="foto_perfil flex">
+      <img
+        src="images/logoDayanePNG.png"
+        alt="Logo"
+        class="w-10 mx-4 flex justify-center"
+      />
+      <a href="/" class="hover:text-rose-400">
+        <b class="font-bold poppins flex justify-center">Dayane</b> Bartolomeu
+      </a>
+    </div>
   </h1>
 
   <div class="sm:flex ml-auto pr-4 items-center gap-4 hidden">

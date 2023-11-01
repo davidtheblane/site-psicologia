@@ -8,7 +8,14 @@
     { name: "Relacionamento", icon: "fa-solid fa-list-check" },
   ];
 
-  let benefits = [
+  let Benefits = [
+    { name: "Paz Interior", icon: "fa-solid fa-list-check" },
+    { name: "Relacionamentos Saudáveis", icon: "fa-solid fa-list-check" },
+    { name: "Autodescoberta", icon: "fa-solid fa-list-check" },
+    { name: "Saúde Mental", icon: "fa-solid fa-list-check" },
+  ];
+
+  let abouts = [
     {
       name: "Nome Completo",
       description: "Dayane Bartolomeu de Oliveira Santos Bernardo",
@@ -24,6 +31,28 @@
     {
       name: "Método de Atendimento",
       description: "100% Online",
+    },
+  ];
+
+  let howTo = [
+    {
+      name: "Agendamento",
+      description: "Entre em contato comigo e agende sua sessão.",
+    },
+    {
+      name: "Primeira Sessão",
+      description:
+        "Chegue com uma mente aberta e sem expectativas para nossa sessão inicial.",
+    },
+    {
+      name: "Sessões Subsequentes",
+      description:
+        "Se quiser continuar, agendaremos sessões subsequentes de acordo com a sua disponibilidade.",
+    },
+    {
+      name: "Crescer Juntos",
+      description:
+        "Juntos, vamos trabalhar para atingir seus objetivos e superar desafios.",
     },
   ];
 </script>
@@ -123,29 +152,20 @@
   </section>
 
   <section
-    id="sobre"
+    id="funcionamento"
     class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
   >
     <div
       class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-rose-400 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-rose-400 py-6"
     >
-      <h6 class="text-lg sm:text-xl md:text-2xl">Quer me conhecer melhor?</h6>
+      <h6 class="text-lg sm:text-xl md:text-2xl">Quer saber como Funciona o</h6>
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-        Um <span class="poppins text-rose-400"> pouco mais </span> sobre mim.
+        <span class="poppins text-rose-400">Atendimento Psicológico? </span>
       </h3>
     </div>
-    <!-- <div class="relative grid place-items-center">
-      <img
-        src={"images/profile.png"}
-        alt="Foto Perfil Dayane"
-        class="object-cover z-[2] max-[70vh]"
-      />
-      <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
-        Eu sou...
-      </p>
-    </div> -->
+
     <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
-      {#each benefits as benefit, index}
+      {#each howTo as how, index}
         <div class="flex gap-6 sm:gap-8">
           <p
             class="poppins text-4xl sm:text-5xl md:text-6xl text-rose-300 font-semibold"
@@ -154,82 +174,122 @@
           </p>
           <div class="flex flex-col gap-6 sm:gap-8">
             <h3 class="text-2xl sm:text-3xl md:text-5xl">
-              {benefit.name}
+              {how.name}
             </h3>
             <p class="text-base md:text-2xl lg:text-2xl">
-              {benefit.description}
+              {how.description}
             </p>
           </div>
         </div>
       {/each}
     </div>
+  </section>
 
-    <!--
-    <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">
-      O Pacote <span class="text-violet-400 poppins">completo</span>
-    </h5>
-     <div
-      class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
-    >
-      <table class="bg-white text-slate-700 rounded text-center">
-        <thead class="border-b border-solid border-slate-200">
-          <tr class="">
-            <th />
-            <th class="whitespace-nowrap p-2 px-4">Candidato 1</th>
-            <th class="whitespace-nowrap p-2 px-4">Candidato 1</th>
-            <th class="whitespace-nowrap p-2 px-4">Candidato 1</th>
-            <th class="whitespace-nowrap bg-violet-700 text-white p-4 px-8"
-              >Me</th
-            >
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="border-b border-solid border-slate-200">
-            <td
-              class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
-              >Dedication</td
-            >
-            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
-          </tr>
-          <tr class="border-b border-solid border-slate-200">
-            <td
-              class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
-              >Critical Thoughts</td
-            >
-            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
-          </tr>
-          <tr class="border-b border-solid border-slate-200">
-            <td
-              class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
-              >Interpersonal Skills</td
-            >
-            <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
-          </tr>
-          <tr class="border-b border-solid border-slate-200">
-            <td
-              class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
-              >Programming Ability</td
-            >
-            <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
-          </tr>
-        </tbody>
-      </table>
+  <section id="benefits" class="py-20 lg:py-32 flex flex-col gap-24">
+    <div class="flex flex-col gap2 text-center">
+      <!-- <h6 class="text-lg sm:text-xl md:text-2xl">Posso te ajudar?</h6> -->
+      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+        <span class="poppins text-rose-400">Benefícios</span>
+      </h3>
     </div>
-    <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-      <p>Role para o lado e veja mais &rarr;</p>
-    </div> -->
+    <!-- <a
+      href=""
+      target="_blank"
+      class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
+    >
+      <i class="fa-regular fa-circle-play" />
+      <p>Sobre Ansiedade</p>
+    </a> -->
+    <div
+      class="grid grid-cols-1 gap12 md:grid-cols-2 lg:grid-cols-4 md:gap-5 lg:gap-10"
+    >
+      <Step step={Benefits[0]}>
+        <p>Aprenda a gerenciar suas emoções e encontrar paz interior.</p>
+      </Step>
+
+      <Step step={Benefits[1]}>
+        <p>
+          Melhore seus relacionamentos e construa amizades autênticas e
+          saudáveis.
+        </p>
+      </Step>
+      <Step step={Benefits[2]}>
+        <p>Aprenda mais sobre si mesmo e descubra suas forças e fraquezas.</p>
+      </Step>
+      <Step step={Benefits[3]}>
+        <p>
+          Melhore sua saúde mental e encontre maneiras de lidar com o estresse e
+          a ansiedade.
+        </p>
+      </Step>
+    </div>
+
+    <!-- <a
+      href="https://wa.me/5511947922772"
+      target="_blank"
+      class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-rose-400 text-white"
+    >
+      <div
+        class="absolute top-0 right-full w-full h-full bg-white opacity-20 group-hover:translate-x-full z-0 duration-200"
+      />
+      <h4 class="relative z-9">Entre em contato</h4>
+    </a> -->
+  </section>
+
+  <section
+    id="sobre"
+    class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
+  >
+    <div
+      class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-rose-400 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-rose-400 py-6"
+    >
+      <h6 class="text-lg sm:text-xl md:text-2xl">Quer saber mais</h6>
+      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+        <span class="poppins text-rose-400">Sobre mim? </span>
+      </h3>
+    </div>
+
+    <!-- // incluir esse conteudo
+  https://gamma.app/docs/Ideia-de-Site-Dayane-zpvsdt4szqtst75?mode=doc -->
+
+    <!-- <div class="foto_perfil flex justify-center">
+    <img
+      src="images/profile.png"
+      alt="Foto de Perfil"
+      class="w-62 rounded-r-full shadow-xl ring-0 ring-gray-400/10"
+    />
+  </div> -->
+    <!-- <div class="relative grid place-items-center">
+    <img
+      src={"images/profile.png"}
+      alt="Foto Perfil Dayane"
+      class="object-cover z-[2] max-[70vh]"
+    />
+    <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
+      Eu sou...
+    </p>
+  </div> -->
+    <div
+      class="flex flex-col gap-20 w-full justify-center mx-auto max-w-[800px]"
+    >
+      {#each abouts as about, index}
+        <div class="flex gap-6 sm:gap-8">
+          <!-- <p
+            class="poppins text-4xl sm:text-5xl md:text-6xl text-rose-300 font-semibold"
+          >
+            0{index + 1}
+          </p> -->
+          <div class="flex flex-col gap-6 sm:gap-8">
+            <h3 class="text-2xl sm:text-3xl md:text-5xl">
+              {about.name}
+            </h3>
+            <p class="text-base md:text-2xl lg:text-2xl">
+              {about.description}
+            </p>
+          </div>
+        </div>
+      {/each}
+    </div>
   </section>
 </main>
 
