@@ -56,8 +56,10 @@ flex flex-col gap-4 sm:gap-8 justify-center items-center"
     </p>
   </div>
 
-  <!-- <div class="flex flex-col m-0 p-0"> -->
-  <p class="poppins text-gray-800 text-base">
+  <!-- <div
+    class="flex gap-20 text-right align-bottom border-dashed border-2 border-gray-50"
+  > -->
+  <p class="poppins text-gray-800 text-xs pt-16">
     Desenvolvido por Davi Bernardo - 2023
   </p>
   <!-- </div> -->

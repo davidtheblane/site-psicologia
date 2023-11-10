@@ -41,8 +41,7 @@
     },
     {
       name: "Primeira Sessão",
-      description:
-        "Chegue com uma mente aberta e sem expectativas para nossa sessão inicial.",
+      description: "Chegue com uma mente aberta.",
     },
     {
       name: "Sessões Subsequentes",
@@ -238,10 +237,10 @@
 
   <section
     id="sobre"
-    class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
+    class="py-20 pt-2 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24"
   >
     <div
-      class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-rose-400 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-rose-400 py-6"
+      class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-rose-400 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-rose-400 py-4"
     >
       <h6 class="text-lg sm:text-xl md:text-2xl">Quer saber mais</h6>
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
@@ -252,13 +251,6 @@
     <!-- // incluir esse conteudo
   https://gamma.app/docs/Ideia-de-Site-Dayane-zpvsdt4szqtst75?mode=doc -->
 
-    <!-- <div class="foto_perfil flex justify-center">
-    <img
-      src="images/profile.png"
-      alt="Foto de Perfil"
-      class="w-62 rounded-r-full shadow-xl ring-0 ring-gray-400/10"
-    />
-  </div> -->
     <!-- <div class="relative grid place-items-center">
     <img
       src={"images/profile.png"}
@@ -272,6 +264,14 @@
     <div
       class="flex flex-col gap-20 w-full justify-center mx-auto max-w-[800px]"
     >
+      <div class="foto_perfil flex justify-center m-0 p-0">
+        <img
+          src="images/fotoPerfil2.png"
+          alt="Foto de Perfil"
+          class="w-40 md:w-64 rounded-r-full shadow-xl ring-0 ring-gray-400/10"
+        />
+      </div>
+
       {#each abouts as about, index}
         <div class="flex gap-6 sm:gap-8">
           <!-- <p
@@ -280,7 +280,7 @@
             0{index + 1}
           </p> -->
           <div class="flex flex-col gap-6 sm:gap-8">
-            <h3 class="text-2xl sm:text-3xl md:text-5xl">
+            <h3 class="text-2xl sm:text-3xl md:text-5xl poppins text-rose-400">
               {about.name}
             </h3>
             <p class="text-base md:text-2xl lg:text-2xl">

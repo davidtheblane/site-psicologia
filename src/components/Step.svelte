@@ -23,7 +23,7 @@
       after:top-0 after:right-full after:w-full after:h-full after:bg-rose-300 after:duration-200
       hover:after:translate-x-full after:z-[-1] overflow-hidden"
     >
-      <p class="relative z-4">Ler mais &rarr;</p>
+      <!-- <p class="relative z-4">Ler mais &rarr;</p> -->
     </div>
   </div>
 </a>
