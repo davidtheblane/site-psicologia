@@ -1,5 +1,9 @@
 <script>
-  import Main from "../components/Main.svelte";
+  import Presentation from "./Presentation.svelte";
+  import Mission1 from "../components/Mission1.svelte";
+  import Servicos from "./Servicos.svelte";
 </script>
 
-<Main />
+<Presentation />
+<Mission1 />
+<Servicos />
