@@ -2,13 +2,13 @@
   import CallToActionBtn from "../components/CallToActionBtn.svelte";
 </script>
 
-<div class="max-w-screen-xl mx-auto px-10 bg-white">
+<div class="max-w-screen-xl mx-auto px-10">
   <div class="flex flex-col items-center">
     <h2 class="text-pink-400 text-4xl mt-5">FAQ</h2>
   </div>
   <div class="grid divide-y divide-neutral-200 max-w-xxl mx-auto mt-8">
     <div class="py-5">
-      <details class="group">
+      <details class="group text-gray-900 text-xl">
         <summary
           class="flex justify-between items-center font-medium cursor-pointer list-none"
         >
@@ -28,7 +28,7 @@
             </svg>
           </span>
         </summary>
-        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+        <p class="text-gray-500 text-md mt-3 group-open:animate-fadeIn">
           As sessões online são realizadas por meio de uma plataforma de
           videoconferência segura, que pode ser acessada por meio de um
           computador, tablet ou celular. Tem duração de 50 minutos e respeita o
@@ -37,7 +37,7 @@
       </details>
     </div>
     <div class="py-5">
-      <details class="group">
+      <details class="group text-gray-900 text-xl">
         <summary
           class="flex justify-between items-center font-medium cursor-pointer list-none"
         >
@@ -57,7 +57,7 @@
             </svg>
           </span>
         </summary>
-        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+        <p class="text-gray-500 text-md mt-3 group-open:animate-fadeIn">
           Não é possível estimar com exatidão o tempo de duração de um processo
           psicoterapêutico, pois cada pessoa responde de uma maneira única a
           esse processo. Isso vai depender do seu contexto histórico, objetivos
@@ -66,7 +66,7 @@
       </details>
     </div>
     <div class="py-5">
-      <details class="group">
+      <details class="group text-gray-900 text-xl">
         <summary
           class="flex justify-between items-center font-medium cursor-pointer list-none"
         >
@@ -86,7 +86,7 @@
             </svg>
           </span>
         </summary>
-        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+        <p class="text-gray-500 text-md mt-3 group-open:animate-fadeIn">
           De acordo com o código de ética do psicólogo, é vedada a divulgação do
           valor da sessão como forma de propaganda para os seus serviços.
           Contudo, clicando no botão abaixo você poderá falar comigo e tirar

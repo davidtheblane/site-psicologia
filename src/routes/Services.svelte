@@ -3,8 +3,8 @@
   import CallToActionBtn from "../components/CallToActionBtn.svelte";
 </script>
 
-<h2 class="text-4xl text-pink-400 text-center px-5 py-10">
-  Essas são algumas das áreas que posso te ajudar
+<h2 class="text-3xl text-pink-400 text-center px-6 py-10">
+  Essas são algumas das áreas em que posso te ajudar
 </h2>
 <div
   class="px-3 md:lg:xl:px-40 border-t border-b py-20 bg-opacity-10"
@@ -33,8 +33,10 @@
           />
         </svg></span
       >
-      <p class="p-4 text-2xl text-wrap font-medium text-slate-500 mt-3">Ansiedade</p>
-      <p class="mt-2 text-md text-justify text-slate-500">
+      <p class="p-4 text-2xl text-wrap font-medium text-pink-400 mt-3">
+        Ansiedade
+      </p>
+      <p class="p-4 text-lg text-justify text-gray-400">
         Sabe aquela sensação de que algo ruim pode acontecer? Ou aquele
         turbilhão de pensamentos negativos que muitas vezes desencadeiam um medo
         e preocupação inexplicável? Pois é, isso pode ser ansiedade. Além desses
@@ -67,8 +69,10 @@
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg></span
       >
-      <p class="p-4 text-2xl text-wrap font-medium text-slate-500 mt-3">Depressão</p>
-      <p class="mt-2 text-md text-justify text-slate-500">
+      <p class="p-4 text-2xl text-wrap font-medium text-pink-400 mt-3">
+        Depressão
+      </p>
+      <p class="p-4 text-lg text-justify text-gray-400">
         A depressão é uma condição complexa que causa uma sensação profunda de
         desesperança e desamparo. O indivíduo sente uma tristeza e vazio
         contínuo durante a maior parte do dia. A sensação é de que nada poderá
@@ -99,8 +103,10 @@
           />
         </svg></span
       >
-      <p class="p-4 text-2xl text-wrap font-medium text-slate-500 mt-3">Relacionamentos</p>
-      <p class="mt-2 text-md text-justify text-slate-500">
+      <p class="p-4 text-2xl text-wrap font-medium text-pink-400 mt-3">
+        Relacionamentos
+      </p>
+      <p class="p-4 text-lg text-justify text-gray-400">
         Pode ser um desafio e tanto estabelecer relações interpessoais. Seja no
         campo afetivo, profissional, familiar os conflitos podem ser
         inevitáveis. Terminar um relacionamento amoroso, pode desencadear muita
@@ -130,8 +136,10 @@
           />
         </svg></span
       >
-      <p class="p-4 text-2xl text-wrap font-medium text-slate-500 mt-3">Autoestima</p>
-      <p class="mt-2 text-md text-justify text-slate-500">
+      <p class="p-4 text-2xl text-wrap font-medium text-pink-400 mt-3">
+        Autoestima
+      </p>
+      <p class="p-4 text-lg text-justify text-gray-400">
         Você gostaria de ter uma relação melhor consigo mesma? Ao longo da vida
         podemos passar por experiências que nos fazem acreditar que não somos
         boas o suficiente, que somos ruins ou indignas de amor. Deixamos de

@@ -1,9 +1,8 @@
-<section class="text-gray-600 body-font">
-
-  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+<section class="text-gray-600 ">
+  <div class="container px-5 py-12 mx-auto flex flex-wrap">
     <div class="flex flex-col items-center">
-      <h2 class="text-pink-400 text-4xl mt-5">Vantagens</h2>
-      <p class="text-neutral-500 text-xl mt-3 text-center py-6">
+      <h2 class="text-pink-400 py-2 text-4xl">Vantagens</h2>
+      <p class="text-gray-600 text-lg text-center py-6">
         A psicoterapia online pode oferecer uma série de vantagens em comparação
         com a presencial. Aqui estão algumas das principais.
       </p>
@@ -23,25 +22,22 @@
         <div
           class="flex-shrink-0 w-24 h-24 bg-pink-100 text-pink-400 rounded-full inline-flex items-center justify-center"
         >
-          
           <svg
-          fill="none"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          class="w-12 h-12"
-          viewBox="0 0 24 24"
-        >
-          <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-          <circle cx="12" cy="7" r="4"></circle>
-        </svg>
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-12 h-12"
+            viewBox="0 0 24 24"
+          >
+            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-            Acessibilidade
-          </h2>
-          <p class="leading-relaxed">
+          <h2 class="text-xl font-bold text-gray-600 mb-1">Acessibilidade</h2>
+          <p class="leading-relaxed text-lg text-justify">
             A psicoterapia online permite que pessoas que moram em áreas
             remotas, rurais e distantes da cidade possam ter acesso a cuidados
             de saúde mental. Além disso, pessoas com mobilidade reduzida podem
@@ -66,24 +62,24 @@
         <div
           class="flex-shrink-0 w-24 h-24 bg-pink-100 text-pink-400 rounded-full inline-flex items-center justify-center"
         >
-        <svg
-        fill="none"
-        stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        class="w-12 h-12"
-        viewBox="0 0 24 24"
-      >
-        <circle cx="12" cy="5" r="3"></circle>
-        <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-      </svg>
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-12 h-12"
+            viewBox="0 0 24 24"
+          >
+            <circle cx="12" cy="5" r="3"></circle>
+            <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+          </svg>
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
+          <h2 class="text-xl font-bold text-gray-600 mb-1">
             Flexibilidade e economia de tempo
           </h2>
-          <p class="leading-relaxed">
+          <p class="leading-relaxed text-lg text-justify">
             A psicoterapia online permite maior flexibilidade, podendo atender
             melhor a rotina do cliente. Como não precisa se deslocar até o
             consultório, o cliente evita o gasto de tempo, e o estresse do
@@ -107,7 +103,6 @@
         <div
           class="flex-shrink-0 w-24 h-24 bg-pink-100 text-pink-400 rounded-full inline-flex items-center justify-center"
         >
-         
           <svg
             fill="none"
             stroke="currentColor"
@@ -121,10 +116,10 @@
           </svg>
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
+          <h2 class="text-xl font-bold text-gray-600 mb-1">
             Privacidade e Conforto
           </h2>
-          <p class="leading-relaxed">
+          <p class="leading-relaxed text-lg text-justify">
             O cliente tem a possibilidade de fazer as sessões do conforto do seu
             lar, e isso pode contribuir para se sentirem mais à vontade para
             falar sobre suas questões. É uma ótima opção para quem não quer
@@ -148,24 +143,21 @@
         <div
           class="flex-shrink-0 w-24 h-24 bg-pink-100 text-pink-400 rounded-full inline-flex items-center justify-center"
         >
-         
           <svg
-          fill="none"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          class="w-12 h-12"
-          viewBox="0 0 24 24"
-        >
-          <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-        </svg>
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-12 h-12"
+            viewBox="0 0 24 24"
+          >
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+          </svg>
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-            Custo
-          </h2>
-          <p class="leading-relaxed">
+          <h2 class="text-xl font-bold text-gray-600 mb-1">Custo</h2>
+          <p class="leading-relaxed text-lg text-justify">
             Ao não precisar se deslocar até o consultório, o cliente economiza
             em transporte, gasolina e estacionamento. Ao final do mês essa pode
             ser uma boa economia.
