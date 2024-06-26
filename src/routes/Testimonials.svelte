@@ -1,101 +1,237 @@
 <script>
 </script>
 
-<div
-  class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none py-10"
-  >
-  <div
-    class="relative flex items-center gap-4 pt-0 pb-8 mx-0 mt-4 overflow-hidden text-gray-700 bg-transparent shadow-none rounded-xl bg-clip-border"
-  >
-    <img
-      src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1480&amp;q=80"
-      alt="Tania Andrew"
-      class="relative inline-block h-[58px] w-[58px] !rounded-full object-cover object-center"
-    />
-    <div class="flex w-full flex-col gap-0.5">
-      <div class="flex items-center justify-between">
-        <h5
-          class="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
-        >
-          Tania Andrew
-        </h5>
-        <div class="flex items-center gap-0 5">
+<section class="text-gray-600">
+  <div class="container px-5 py-6 mx-auto">
+    <h1 class="text-4xl text-pink-400 text-center px-5 py-10">Depoimentos</h1>
+    <div class="grid text-md text-center md:grid-cols-2 lg:xl:grid-cols-3">
+      <div class="p-4 w-full">
+        <div class="h-full bg-pink-100 p-8 rounded">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
             fill="currentColor"
-            class="w-5 h-5 text-yellow-700"
+            class="block w-5 h-5 text-pink-400 mb-4"
+            viewBox="0 0 975.036 975.036"
           >
             <path
-              fill-rule="evenodd"
-              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-              clip-rule="evenodd"
+              d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
             ></path>
           </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            class="w-5 h-5 text-yellow-700"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            class="w-5 h-5 text-yellow-700"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            class="w-5 h-5 text-yellow-700"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            class="w-5 h-5 text-yellow-700"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
+          <p class="leading-relaxed mb-6">
+            "Eu tinha preconceito com terapia online, achava que seria
+            impessoal, mas me surpreendi de uma forma muito gratificante. A
+            Dayane é uma profissional muito acolhedora, que me fez esquecer que
+            estava conversando através de uma tela. Me ajudou a reduzir os meus
+            sintomas de ansiedade. Quando comecei a terapia com ela, eu tomava 3
+            tipos de medicação diferente para a minha ansiedade, hoje não tomo
+            mais nenhuma.”
+          </p>
+          <a href="/" class="inline-flex items-center">
+            <img
+              alt="testimonial"
+              src="https://dummyimage.com/106x106"
+              class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+            />
+            <span class="flex-grow flex flex-col pl-4">
+              <span class="title-font font-medium text-gray-900">B...</span>
+              <span class="text-gray-500 text-sm">Paciente</span>
+            </span>
+          </a>
         </div>
       </div>
-      <p
-        class="block font-sans text-base antialiased font-light leading-relaxed text-blue-gray-900"
-      >
-        Frontend Lead @ Google
-      </p>
+      <div class="p-4 w-full">
+        <div class="h-full bg-pink-100 p-8 rounded">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="block w-5 h-5 text-pink-400 mb-4"
+            viewBox="0 0 975.036 975.036"
+          >
+            <path
+              d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+            ></path>
+          </svg>
+          <p class="leading-relaxed mb-6">
+            “Eu lembro da minha primeira sessão com ela, eu chorava tanto que
+            mal conseguia falar, mas ela só ficou ali e acolheu minha dor. Eu
+            estava completamente perdida sobre o que iria fazer da minha vida,
+            agora eu tenho objetivos e trabalhamos muito para que eu possa
+            alcançá-los.”
+          </p>
+          <a href="/" class="inline-flex items-center">
+            <img
+              alt="testimonial"
+              src="https://dummyimage.com/107x107"
+              class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+            />
+            <span class="flex-grow flex flex-col pl-4">
+              <span class="title-font font-medium text-gray-900">L...</span>
+              <span class="text-gray-500 text-sm">Paciente</span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="p-4 w-full">
+        <div class="h-full bg-pink-100 p-8 rounded">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="block w-5 h-5 text-pink-400 mb-4"
+            viewBox="0 0 975.036 975.036"
+          >
+            <path
+              d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+            ></path>
+          </svg>
+          <p class="leading-relaxed mb-6">
+            “Antes de conhecer a Dayane eu já tinha passado com outros
+            psicólogos, mas nunca ficava mais do que 3 meses, ás vezes bem menos
+            tempo, mas com ela foi diferente, eu senti que estava realmente
+            sendo ouvida, e atualmente estamos trabalhando juntas há pouco mais
+            de 1 ano, e sem previsão para encerrar, porque eu realmente gosto
+            muito do meu tempo com ela.”
+          </p>
+          <a href="/" class="inline-flex items-center">
+            <img
+              alt="testimonial"
+              src="https://dummyimage.com/107x107"
+              class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+            />
+            <span class="flex-grow flex flex-col pl-4">
+              <span class="title-font font-medium text-gray-900">J...</span>
+              <span class="text-gray-500 text-sm">Paciente</span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="p-4 w-full">
+        <div class="h-full bg-pink-100 p-8 rounded">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="block w-5 h-5 text-pink-400 mb-4"
+            viewBox="0 0 975.036 975.036"
+          >
+            <path
+              d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+            ></path>
+          </svg>
+          <p class="leading-relaxed mb-6">
+            “Uma ótima profissional, tem me ajudado muito nas minhas questões.
+            Eu indico o seu trabalho porque acredito que ela possa ajudar outras
+            pessoas, como tem me ajudado ".
+          </p>
+          <a href="/" class="inline-flex items-center">
+            <img
+              alt="testimonial"
+              src="https://dummyimage.com/107x107"
+              class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+            />
+            <span class="flex-grow flex flex-col pl-4">
+              <span class="title-font font-medium text-gray-900">H...</span>
+              <span class="text-gray-500 text-sm">Paciente</span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="p-4 w-full">
+        <div class="h-full bg-pink-100 p-8 rounded">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="block w-5 h-5 text-pink-400 mb-4"
+            viewBox="0 0 975.036 975.036"
+          >
+            <path
+              d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+            ></path>
+          </svg>
+          <p class="leading-relaxed mb-6">
+            “Quando eu conheci a Dayane eu estava muito fragilizada, tinha
+            acabado de sair de um relacionamento de anos, e não acreditava que
+            seria possível seguir em frente, sei que ainda tem coisas a serem
+            trabalhadas, mas posso dizer hoje que é possível seguir em frente.
+            Deixei a dependência emocional para trás e tornei a mim mesma minha
+            prioridade.”
+          </p>
+          <a href="/" class="inline-flex items-center">
+            <img
+              alt="testimonial"
+              src="https://dummyimage.com/107x107"
+              class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+            />
+            <span class="flex-grow flex flex-col pl-4">
+              <span class="title-font font-medium text-gray-900">A...</span>
+              <span class="text-gray-500 text-sm">Paciente</span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="p-4 w-full">
+        <div class="h-full bg-pink-100 p-8 rounded">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="block w-5 h-5 text-pink-400 mb-4"
+            viewBox="0 0 975.036 975.036"
+          >
+            <path
+              d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+            ></path>
+          </svg>
+          <p class="leading-relaxed mb-6">
+            “Meu principal critério era fazer terapia com uma psicóloga preta, e
+            quando eu conheci a Dayane, tive certeza de que seria ela. É bom
+            poder falar com alguém que entende intimamente o que eu sinto e
+            falar sobre gênero e raça é algo importante para mim, porque é o que
+            me atravessa. Só tenho a agradecer por essa profissional atenciosa
+            que ela é.”
+          </p>
+          <a href="/" class="inline-flex items-center">
+            <img
+              alt="testimonial"
+              src="https://dummyimage.com/107x107"
+              class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+            />
+            <span class="flex-grow flex flex-col pl-4">
+              <span class="title-font font-medium text-gray-900">R...</span>
+              <span class="text-gray-500 text-sm">Paciente</span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="p-4 w-full">
+        <div class="h-full bg-pink-100 p-8 rounded">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="block w-5 h-5 text-pink-400 mb-4"
+            viewBox="0 0 975.036 975.036"
+          >
+            <path
+              d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+            ></path>
+          </svg>
+          <p class="leading-relaxed mb-6">
+            “Não há nada que pague pelo alívio que eu sinto hoje, antes vivia me
+            sentindo sobrecarregada e sem saber como mudar essa situação.
+            Aprendi na terapia a dizer ‘não’ e não me sentir culpada por isso. A
+            Dayane foi a profissional que me ajudou nesse processo, ela é
+            atenciosa, empática e me tratou com muito respeito e paciência.”
+          </p>
+          <a href="/" class="inline-flex items-center">
+            <img
+              alt="testimonial"
+              src="https://dummyimage.com/107x107"
+              class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+            />
+            <span class="flex-grow flex flex-col pl-4">
+              <span class="title-font font-medium text-gray-900">A...</span>
+              <span class="text-gray-500 text-sm">Paciente</span>
+            </span>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="p-0 mb-6">
-    <p
-      class="block font-sans text-base antialiased font-light leading-relaxed text-inherit"
-    >
-      "I found solution to all my design needs from Creative Tim. I use them as
-      a freelancer in my hobby projects for fun! And its really affordable, very
-      humble guys !!!"
-    </p>
-  </div>
-</div>
+</section>

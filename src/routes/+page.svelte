@@ -5,17 +5,21 @@
   import Mission3 from "../components/Mission3.svelte";
   import Servicos from "./Servicos.svelte";
   import Artigo from "./Artigo.svelte";
-  import Services from "../components/Services.svelte";
-  import Vantages from "./Vantagens.svelte";
+  // import Vantages from "./Vantagens.svelte";
   import Testimonials from "./Testimonials.svelte";
+  import Perguntas from "./Perguntas.svelte";
+  import Sobre from "./Sobre.svelte";
+  import Benefits from "./Benefits.svelte";
 </script>
 
 <Presentation />
 <Mission1 />
 <Servicos />
-<Services />
 <Mission2 />
 <Artigo />
 <Mission3 />
-<Vantages />
+<!-- <Vantages /> -->
+<Benefits />
 <Testimonials />
+<Perguntas />
+<Sobre />
