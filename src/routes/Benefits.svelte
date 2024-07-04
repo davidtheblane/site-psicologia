@@ -1,10 +1,10 @@
-<section class="text-gray-600 ">
+<section id="beneficios" class="text-gray-600">
   <div class="container px-5 py-12 mx-auto flex flex-wrap">
-    <div class="flex flex-col items-center">
-      <h2 class="text-pink-400 py-2 text-4xl">Vantagens</h2>
-      <p class="text-gray-600 text-lg text-center py-6">
+    <div class="items-center">
+      <h2 class="section-title">Vantagens</h2>
+      <p class="text-gray-400 text-lg text-center p-6">
         A psicoterapia online pode oferecer uma série de vantagens em comparação
-        com a presencial. Aqui estão algumas das principais.
+        com a presencial.
       </p>
     </div>
     <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
@@ -37,7 +37,7 @@
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 class="text-xl font-bold text-gray-600 mb-1">Acessibilidade</h2>
-          <p class="leading-relaxed text-lg text-justify">
+          <p class="leading-relaxed text-gray-400 text-lg text-justify">
             A psicoterapia online permite que pessoas que moram em áreas
             remotas, rurais e distantes da cidade possam ter acesso a cuidados
             de saúde mental. Além disso, pessoas com mobilidade reduzida podem
@@ -77,9 +77,9 @@
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 class="text-xl font-bold text-gray-600 mb-1">
-            Flexibilidade e economia de tempo
+            Flexibilidade e Economia de tempo
           </h2>
-          <p class="leading-relaxed text-lg text-justify">
+          <p class="leading-relaxed text-gray-400 text-lg text-justify">
             A psicoterapia online permite maior flexibilidade, podendo atender
             melhor a rotina do cliente. Como não precisa se deslocar até o
             consultório, o cliente evita o gasto de tempo, e o estresse do
@@ -119,7 +119,7 @@
           <h2 class="text-xl font-bold text-gray-600 mb-1">
             Privacidade e Conforto
           </h2>
-          <p class="leading-relaxed text-lg text-justify">
+          <p class="leading-relaxed text-gray-400 text-lg text-justify">
             O cliente tem a possibilidade de fazer as sessões do conforto do seu
             lar, e isso pode contribuir para se sentirem mais à vontade para
             falar sobre suas questões. É uma ótima opção para quem não quer
@@ -157,7 +157,7 @@
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 class="text-xl font-bold text-gray-600 mb-1">Custo</h2>
-          <p class="leading-relaxed text-lg text-justify">
+          <p class="leading-relaxed text-gray-400 text-lg text-justify">
             Ao não precisar se deslocar até o consultório, o cliente economiza
             em transporte, gasolina e estacionamento. Ao final do mês essa pode
             ser uma boa economia.

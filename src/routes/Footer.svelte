@@ -2,7 +2,7 @@
   const sections = [
     {name: 'Artigos',     link: '#artigos'},
     {name: 'Beneficios',  link: '#beneficios'},
-    {name: 'Depoimentos', link: '#depoimnentos'},
+    {name: 'Depoimentos', link: '#depoimentos'},
     {name: 'FAQ',         link: '#faq'},
     {name: 'Servicos',    link: '#servicos'},
     {name: 'Sobre',       link: '#sobre'},
