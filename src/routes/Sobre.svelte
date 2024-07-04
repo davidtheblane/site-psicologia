@@ -2,11 +2,20 @@
   import CallToActionBtn from "../components/CallToActionBtn.svelte";
 </script>
 
-<div id="sobre" class="flex flex-col px-4 items-center">
-  <h2 class="section-title">Sobre mim</h2>
+<div id="sobre" class="flex flex-col px-6 items-center">
   <span class="font-bold text-4xl text-gray-400">Olá!</span> <br />
-  <h3 class="p-4 text-xl text-wrap text-gray-400">
-    Me chamo Dayane Bartolomeu e sou psicóloga clínica.
+
+  <div class="w-48 flex items-center my-6">
+    <img
+      class="md:w-auto rounded-full shadow-md border-8 border-white"
+      src="src/images/profileSquare.svg"
+      alt="profile"
+    />
+  </div>
+  <h2 class="section-title">Sobre mim</h2>
+
+  <h3 class="p-4 text-xl text-wrap text-center leading-8 text-gray-400">
+    Me chamo Dayane Bartolomeu <br /> e sou psicóloga clínica.
   </h3>
   <p class="p-4 text-lg text-wrap text-gray-400 text-justify">
     Minha jornada começou há muitos anos quando decidi fazer faculdade de
