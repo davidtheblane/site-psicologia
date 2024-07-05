@@ -6,15 +6,19 @@
   class="flex flex-col w-screen px-4 items-center bg-gradient-to-b from-white to-pink-200"
 >
   <div class="flex flex-col my-2 justify-center items-center">
-    <div class="w-48 flex items-center my-6">
+     
+    <div class="w-48 flex items-center justify-center my-6 relative">
       <img
-        class="md:w-auto rounded-full shadow-md border-8 border-white"
+        class="z-10 md:w-auto rounded-full shadow-md border-8 border-white"
         src="/profileSquare.svg"
         alt="profile"
       />
+      <div class="absolute w-48 h-10 text-center border-8 rounded-full border-pink-400 -bottom-8 bg-pink-400">
+        <p class="text-white">CRP-00099909</p>
+    </div>
     </div>
     <h1 class="text-5xl text-pink-400 text-center p-5">
-      Terapia Online <br />
+      Terapia Online<br />
       <span class="font-bold text-4xl text-pink-400"> para mulheres</span>
     </h1>
 
