@@ -79,11 +79,10 @@
                             >Paciente</span
                         >
                     </div>
-                    <img
-                        class="w-12"
-                        src="/src/images/avatar1.svg"
-                        alt="avatar"
-                    />
+                    <i
+                        class="fa-solid fa-person-circle-check fa-2x"
+                        style="color: #f17eb8;"
+                    ></i>
                 </div>
             </swiper-slide>
         {/each}

@@ -9,12 +9,13 @@
     <div class="w-48 flex items-center my-6">
       <img
         class="md:w-auto rounded-full shadow-md border-8 border-white"
-        src="src/images/profileSquare.svg"
+        src="/profileSquare.svg"
         alt="profile"
       />
     </div>
     <h1 class="text-5xl text-pink-400 text-center p-5">
-      Terapia Online <br> <span class="font-bold text-4xl text-pink-400"> para mulheres</span>
+      Terapia Online <br />
+      <span class="font-bold text-4xl text-pink-400"> para mulheres</span>
     </h1>
 
     <h1 class="p-5 text-lg text-gray-500 text-center">

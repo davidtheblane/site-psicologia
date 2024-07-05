@@ -8,7 +8,7 @@
   <div class="w-48 flex items-center my-6">
     <img
       class="md:w-auto rounded-full shadow-md border-8 border-white"
-      src="src/images/profileSquare.svg"
+      src="/profileSquare.svg"
       alt="profile"
     />
   </div>
