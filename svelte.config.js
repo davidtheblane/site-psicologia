@@ -8,6 +8,7 @@ const config = {
 		alias: {
 			// $img: 'src/images',
 		},
+		// preprocess: vitePreprocess()
 	},
 };
 export default config;

@@ -17,14 +17,14 @@
   ];
 </script>
 
-<div id="faq" class="max-w-screen-xl mx-auto px-10">
+<div id="faq" class="max-w-screen-xl mx-auto p-10">
   <div class="flex flex-col items-center">
     <h2 class="section-title">FAQ</h2>
   </div>
   <div class="grid divide-y divide-neutral-200 max-w-2xl mx-auto mt-8">
     {#each faqs as faq}
       <div class="py-5">
-        <details class="group text-gray-400 text-xl">
+        <details class="group text-pink-400 text-xl">
           <summary
             class="flex justify-between items-center font-medium cursor-pointer list-none"
           >
@@ -52,9 +52,6 @@
         </details>
       </div>
     {/each}
-
-    <div class="flex justify-center p-10">
-      <CallToActionBtn />
-    </div>
   </div>
 </div>
+<hr class="mx-20 py-10" />

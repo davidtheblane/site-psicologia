@@ -36,7 +36,7 @@
           </svg>
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 class="text-xl font-bold text-gray-600 mb-1">Acessibilidade</h2>
+          <h2 class="text-xl font-bold text-pink-400 mb-1">Acessibilidade</h2>
           <p class="leading-relaxed text-gray-400 text-lg text-justify">
             A psicoterapia online permite que pessoas que moram em áreas
             remotas, rurais e distantes da cidade possam ter acesso a cuidados
@@ -76,7 +76,7 @@
           </svg>
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 class="text-xl font-bold text-gray-600 mb-1">
+          <h2 class="text-xl font-bold text-pink-400 mb-1">
             Flexibilidade e Economia de tempo
           </h2>
           <p class="leading-relaxed text-gray-400 text-lg text-justify">
@@ -116,7 +116,7 @@
           </svg>
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 class="text-xl font-bold text-gray-600 mb-1">
+          <h2 class="text-xl font-bold text-pink-400 mb-1">
             Privacidade e Conforto
           </h2>
           <p class="leading-relaxed text-gray-400 text-lg text-justify">
@@ -156,7 +156,7 @@
           </svg>
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 class="text-xl font-bold text-gray-600 mb-1">Custo</h2>
+          <h2 class="text-xl font-bold text-pink-400 mb-1">Custo</h2>
           <p class="leading-relaxed text-gray-400 text-lg text-justify">
             Ao não precisar se deslocar até o consultório, o cliente economiza
             em transporte, gasolina e estacionamento. Ao final do mês essa pode
@@ -167,3 +167,4 @@
     </div>
   </div>
 </section>
+<hr class="mx-20 py-10" />

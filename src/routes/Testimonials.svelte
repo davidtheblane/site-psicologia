@@ -1,4 +1,5 @@
 <script>
+    import CallToActionBtn from "../components/CallToActionBtn.svelte";
     const starNumber = [1, 2, 3, 4, 5];
     const testimonials = [
         {
@@ -79,16 +80,19 @@
                             >Paciente</span
                         >
                     </div>
-                    <img
-                        class="w-12"
-                        src="/src/images/avatar1.svg"
-                        alt="avatar"
-                    />
+                    <i
+                        class="fa-solid fa-person-circle-check fa-2x"
+                        style="color: #f17eb8;"
+                    ></i>
                 </div>
             </swiper-slide>
         {/each}
     </swiper-container>
+    <div class="flex justify-center p-10">
+        <CallToActionBtn />
+    </div>
 </section>
+<hr class="mx-20 py-10" />
 
 <style>
     /* .swiper-scrollbar-horizontal {

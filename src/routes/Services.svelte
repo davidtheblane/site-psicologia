@@ -9,17 +9,17 @@
     {
       name: "Depressão",
       text: "A depressão é uma condição complexa que causa uma sensação profunda de         desesperança e desamparo. O indivíduo sente uma tristeza e vazio         contínuo durante a maior parte do dia. A sensação é de que nada poderá         mudar essa situação. Contudo, atualmente há formas de lidar com a         depressão, a psicoterapia poderá te munir de ferramentas para atravessar        esse período difícil, ressignificar sua vida e te devolver a alegria de         viver.",
-      icon: "fa-solid fa-face-frown-open fa-3x",
+      icon: "fa-solid fa-face-frown-open fa-3x translate-y-1",
     },
     {
       name: "Relacionamentos",
       text: "Pode ser um desafio e tanto estabelecer relações interpessoais. Seja no         campo afetivo, profissional, familiar os conflitos podem ser         inevitáveis. Terminar um relacionamento amoroso, pode desencadear muita         dor e emoções confusas. A psicoterapia pode cumprir um papel crucial em         te ajudar a desenvolver habilidades interpessoais para lidar com as         relações da sua vida.",
-      icon: "fa-solid fa-users-rays fa-3x",
+      icon: "fa-solid fa-users-rays fa-3x translate-y-1 -translate-x-0.5",
     },
     {
       name: "Autoestima",
       text: "Você gostaria de ter uma relação melhor consigo mesma? Ao longo da vida         podemos passar por experiências que nos fazem acreditar que não somos         boas o suficiente, que somos ruins ou indignas de amor. Deixamos de         reconhecer o nosso valor e perdemos a capacidade de nos amar. O processo         psicoterapêutico poderá te ajudar a olhar com mais carinho para si         mesma, reconhecer suas potencialidades, construir autoconfiança e         respeitar a pessoa que você é.",
-      icon: "fa-solid fa-arrow-trend-up fa-3x",
+      icon: "fa-solid fa-arrow-trend-up fa-3x translate-y-1",
     },
   ];
 </script>
