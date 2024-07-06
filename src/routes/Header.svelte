@@ -9,9 +9,13 @@
 </script>
 
 <Navbar>
-  <NavBrand class="" href="/">
-    <img src="src/images/logo.png" class="mx-4 h-10 sm:h-16" alt="Logotipo" />
-    <span class="self-center text-pink-400 justify-center items-center"
+  <NavBrand class="flex" href="/">
+    <img
+      src="/images/logo2.svg"
+      class="mx-4 h-10 sm:h-16 scale-110 -translate-y-1"
+      alt="Logotipo"
+    />
+    <span class=" text-base text-pink-400 justify-center translate-y-1"
       >Dayane Bartolomeu
     </span>
   </NavBrand>

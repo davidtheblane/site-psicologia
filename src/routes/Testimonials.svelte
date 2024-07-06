@@ -1,4 +1,5 @@
 <script>
+    import CallToActionBtn from "../components/CallToActionBtn.svelte";
     const starNumber = [1, 2, 3, 4, 5];
     const testimonials = [
         {
@@ -87,7 +88,11 @@
             </swiper-slide>
         {/each}
     </swiper-container>
+    <div class="flex justify-center p-10">
+        <CallToActionBtn />
+    </div>
 </section>
+<hr class="mx-20 py-10" />
 
 <style>
     /* .swiper-scrollbar-horizontal {
