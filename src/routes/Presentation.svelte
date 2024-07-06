@@ -16,10 +16,10 @@
         src="/images/profileSquare.svg"
         alt="profile"
       />
-      <div class="absolute text-sm -bottom-12 w-48 h-10 text-center">
-        <p class="text-gray-400">Dayane Bartolomeu</p>
+      <div class="absolute text-sm -bottom-14 w-48 h-10 text-center">
+        <p class="text-gray-500">Dayane Bartolomeu</p>
 
-        <p class="text-gray-400">CRP-06/175725</p>
+        <p class="text-gray-500">CRP-06/175725</p>
       </div>
     </div>
     <!-- <h1 class="text-5xl text-pink-400 text-center p-5">
