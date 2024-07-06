@@ -8,7 +8,7 @@
   } from "flowbite-svelte";
 </script>
 
-<Navbar>
+<Navbar id="inicio">
   <NavBrand class="flex" href="/">
     <img
       src="/images/logo2.svg"
@@ -22,10 +22,12 @@
   <NavHamburger />
   <NavUl>
     <NavLi href="/">Inicio</NavLi>
-    <NavLi href="/about">Sobre</NavLi>
-    <NavLi href="/docs/components/navbar">Servicos</NavLi>
-    <NavLi href="/pricing">Benefícios</NavLi>
-    <NavLi href="/pricing">Depoimentos</NavLi>
-    <NavLi href="/contact">Contato</NavLi>
+    <NavLi href="#artigos">Artigos</NavLi>
+    <NavLi href="#beneficios">Benefícios</NavLi>
+    <NavLi href="#depoimentos">Depoimentos</NavLi>
+    <NavLi href="#sobre">Sobre</NavLi>
+    <NavLi href="#faq">FAQ</NavLi>
+    <NavLi href="#servicos">Servicos</NavLi>
+    <NavLi href="#contato">Contato</NavLi>
   </NavUl>
 </Navbar>
