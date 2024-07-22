@@ -8,6 +8,7 @@ html {
 
 * {
   font-family: 'Roboto', sans-serif;
+  padding: 0 auto;
 }
 
 a,
