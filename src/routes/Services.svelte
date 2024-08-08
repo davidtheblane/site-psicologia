@@ -24,15 +24,13 @@
   ];
 </script>
 
-<div class="md:lg:xl:px-40 py-5 bg-opacity-10">
+<div class="py-5 bg-opacity-10">
   <h2 id="servicos" class="section-title">
     Essas são algumas das áreas em que posso te ajudar
   </h2>
-  {#each services as service}
-    <div class="grid grid-cols-1 md:lg:grid-cols-2 xl:2xl:grid-cols-4 group">
-      <div
-        class="p-10 flex flex-col items-center text-center group md:lg:xl:border-r md:lg:xl:border-b"
-      >
+  <div class="grid grid-cols-1 md:grid-cols-2 group py-5">
+    {#each services as service}
+      <div class="p-5 items-center text-center">
         <span
           class="inline-block p-5 w-24 h-24 rounded-full bg-pink-400 text-white shadow-lg shadow-gray-300"
         >
@@ -45,8 +43,8 @@
           {service.text}
         </p>
       </div>
-    </div>
-  {/each}
+    {/each}
+  </div>
 </div>
 <div class="flex justify-center p-5">
   <CallToActionBtn />
